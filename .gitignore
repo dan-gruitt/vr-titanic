@@ -102,3 +102,6 @@ InitTestScene*.unity*
 .DS_Store
 .DS_Store?
 ._*
+
+# Documentation files
+*.md
