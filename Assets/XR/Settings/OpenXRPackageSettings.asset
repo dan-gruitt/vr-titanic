@@ -53,25 +53,25 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 1382539362503868996}
-  - {fileID: 2530119280318883148}
   - {fileID: 7959800205535888056}
   - {fileID: 7905670948908409998}
+  - {fileID: -4299732542663318908}
+  - {fileID: -4998138956984173286}
+  - {fileID: -5748413980371122566}
   - {fileID: -3322428384880662174}
+  - {fileID: 6240853133266102025}
+  - {fileID: 2039006905929967799}
+  - {fileID: -4957553253035037597}
+  - {fileID: -64997795242170032}
   - {fileID: -9029180258295048441}
   - {fileID: -6619912719323076004}
-  - {fileID: 4341678749364149314}
-  - {fileID: 2039006905929967799}
-  - {fileID: -5748413980371122566}
   - {fileID: 4863584493014474089}
-  - {fileID: -64997795242170032}
-  - {fileID: -4299732542663318908}
-  - {fileID: -4957553253035037597}
-  - {fileID: -5179421692537662843}
+  - {fileID: 2530119280318883148}
   - {fileID: -1280296789027832501}
+  - {fileID: 4341678749364149314}
+  - {fileID: 1382539362503868996}
   - {fileID: 5045104726850271151}
-  - {fileID: 6240853133266102025}
-  - {fileID: -4998138956984173286}
+  - {fileID: -5179421692537662843}
   m_renderMode: 1
   m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
 --- !u!114 &-6750064886735471580
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -211,7 +211,7 @@ MonoBehaviour:
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
   multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &-5941520102274620018
 MonoBehaviour:
@@ -461,26 +461,26 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -813608853927382732}
-  - {fileID: 4513857879249765138}
-  - {fileID: 8743696884008718865}
-  - {fileID: -6015440474885066210}
+  - {fileID: -6371419255243430652}
   - {fileID: 8775391384810395412}
   - {fileID: -3792435548102796607}
-  - {fileID: -6371419255243430652}
+  - {fileID: -8732890750219446987}
+  - {fileID: 8765365236214166018}
+  - {fileID: -5941520102274620018}
   - {fileID: 7053572925142749586}
+  - {fileID: 1283666875081903581}
+  - {fileID: -6015440474885066210}
+  - {fileID: -4599162667703251479}
   - {fileID: -3113853493058474892}
   - {fileID: 4398760970912314525}
-  - {fileID: -6327672192135279805}
-  - {fileID: -5941520102274620018}
-  - {fileID: -4599162667703251479}
-  - {fileID: -8732890750219446987}
-  - {fileID: 1283666875081903581}
-  - {fileID: -6750064886735471580}
+  - {fileID: 8743696884008718865}
+  - {fileID: 4513857879249765138}
   - {fileID: -533347294512722076}
-  - {fileID: 8765365236214166018}
+  - {fileID: -6327672192135279805}
+  - {fileID: -813608853927382732}
+  - {fileID: -6750064886735471580}
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
 --- !u!114 &-813608853927382732
 MonoBehaviour:
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
 --- !u!114 &2039006905929967799
 MonoBehaviour:
